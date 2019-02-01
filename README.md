@@ -34,15 +34,13 @@ d : delet
     
     cd mysite # 경로이동
     
+    source myvenv/bin/activate # 가상환경으로 진입
+    
     pip3 install pillow==2.9.0 # 뭔지 모르겠음 ㅠ ㅠ 
     
     pip3 install django-taggit # 뭔지 모르겠음 ㅠ ㅠ 
     
     python manage.py makemigrations & migrate # db변경 되면 입력해야하는 명령
-    
-    source myvenv/bin/activate # 가상환경으로 진입
-    
-    cd mysite # 경로이동
     
     pythone manage.py runserver 0:80 # 80포트를 이용해서 서버를 실행
     
