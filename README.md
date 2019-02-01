@@ -44,7 +44,7 @@ d : delet
     
     pythone manage.py runserver 0:80 # 80포트를 이용해서 서버를 실행
     
-## 장고어드민 계정 생성 명령어 
+## 장고어드민 접속정보 
 
     python manage.py createsuperuser
 
